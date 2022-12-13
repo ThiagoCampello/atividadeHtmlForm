@@ -7,6 +7,206 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Exercicio 1 -->
+    <h3>Questão 1:</h3>
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" /><br><br>
+        
+        <label for="type">Tipo:</label>
+        <select name="type" id="type">
+          <option value="fogo">fogo</option>
+          <option value="agua">agua</option>
+          <option value="ar">ar</option>
+          <option value="planta">planta</option>
+          <option value="gelo">gelo</option>
+          <option value="eletrico">eletrico</option>
+          <option value="normal">normal</option>
+        </select><br><br>
+        
+        <label for="level">level:</label><br>
+        <input id="level" type="number" name="level" value="0" /><br><br>
+
+        <label for="start">Data de captura:</label><br>
+        
+        <input type="date" id="start" name="trip-start"
+         min="2018-01-01" max="2038-12-31"><br><br>
     
+        <label for="nome">Nome do treinador:</label><br>
+        <input type="text" id="nome" /><br><br>
+
+        <input type="submit"><br>
+
+    </form>
+<hr>
+
+
+
+    <!-- Exercicio 2 -->
+<h3>Questão 2:</h3>
+
+<form>
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" /><br><br>
+                
+    <label for="CPF">CPF:</label><br>
+    <input type="text" id="CPF" /><br><br>
+        
+    <label for="RG">RG:</label><br>
+    <input type="text" id="RG" /><br><br>
+        
+    <label for="start">Data de Nascimento:</label><br>
+    <input type="date" id="start" name="dataNascimento"><br><br>
+    
+    <label for="CEP">CEP:</label><br>
+    <input id="CEP" type="number" name="CEP"/><br><br>
+
+    <label for="Rua">Rua:</label><br>
+    <input type="text" id="Rua" /><br><br>
+
+    <label for="Bairro">Bairro:</label><br>
+    <input type="text" id="Bairro" /><br><br>
+
+    <label for="Cidade">Cidade:</label><br>
+    <input type="text" id="Cidade" /><br><br>
+
+    <input type="submit"><br>
+</form>    
+<hr>
+
+    
+    <!-- Exercicio 3 -->
+    
+
+    <h3>Questão 3:</h3>
+    <h3><span style="color: red;">*</span>Nome Completo</h3>
+  
+    <label for="tratamento">Tratamento</label><br>
+  <select name="tratamento" id="tratamento">
+    <option value="Nenhum">--Nenhum--</option>
+    <option value="tratamento1">Tratamento 01</option>
+    <option value="tratamento2">Tratamento 02</option>
+  </select>
+  <br>
+  <br>
+  <label for="nome">Nome:</label>
+  <br>
+  <input type="text" name="nome" id="nome" placeholder="Primeiro nome">
+  <br>
+  <br>
+  <label for="sobrenome"><span style="color: red;">*</span>Sobrenome:</label>
+  <br>
+  <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+  <br>
+  <br>
+  <label for="empresa"><span style="color: red;">*</span>Empresa:</label><br>
+  <input type="text" name="empresa" id="empresa">
+  <br>
+  <br>
+  <label for="titulo">Título:</label><br>
+  <input type="text" name="titulo" id="titulo" placeholder="Sobrenome">
+  <br>
+  <br>
+  <label for="origemLead">Origem do Lead:</label><br>
+  <select name="origemLead" id="origemLead">
+    <option value="Nenhum">--Nenhum--</option>
+    <option value="Web">Web</option>
+    <option value="PhoneInquiry">Phone Inquiry</option>
+    <option value="PartnerReferral">Partner Referral</option>
+    <option value="PurchasedList">Purchased List</option>
+    <option value="Other">Other</option>
+  </select>
+  <br>
+  <br>
+  <label for="statusLead"><span style="color: red;">*</span>Status do Lead:</label><br>
+  <select name="statusLead" id="statusLead">
+    <option value="Nenhum">--Nenhum--</option>
+    <option value="OpenNotContacted">Open - Not Contacted</option>
+    <option value="Working-Contacted">Working - Contacted</option>
+    <option value="Closed-Converted">Closed - Converted</option>
+    <option value="Closed-NotConverted">Closed - NotConverted</option>
+  </select>
+  <br>
+  <br>
+  <label for="sobrenome"><span style="color: red;">*</span>Sobrenome:</label><br>
+  <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+  <br>
+  <br>
+  <label for="descricao">Descrição:</label><br>
+  <textarea name="descricao" id="descricao" cols="100" rows="4"></textarea>
+  <br>
+  <br>
+  <input type="submit" value="Salvar e Criar"><br>
+  <hr>
+    <!-- Exercicio 4: -->
+    <h3>Questão 4:</h3>
+    <form>
+        <label for="particular">Particular</label><br>
+        <input type="checkbox" name="particular" value="true"><br><br>
+
+        <label for="nome"><span style="color: red;">*</span>Nome da oportunidade</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="valor">Valor</label><br>
+        <input type="number" id="valor" name="valor"><br><br>
+
+        <label for="dataFechamento"><span style="color: red;">*</span>Data de fechamento</label><br>
+        <input type="date" id="dataFechamento" name="dataFechamento"><br><br>
+
+        <label for="nextStep">Next Step</label><br>
+        <input type="text" name="nextStep" id="nextStep"><br><br>
+
+        <label for="fase"><span style="color: red;">*</span>Fase</label><br>
+        <select name="Fase" id="fase">
+            <option value="null">--Nenhum--</option>
+            <option value="prospecting">Prospecting</option>
+            <option value="qualification">Qualification</option>
+            <option value="needAnalysis">Need Analysis</option>
+            <option value="valueProposition">Value Proposition</option>
+            <option value="idDecisionMakers">Id. Decision Makers</option>
+            <option value="perceptionAnalysis">Perception Analysis</option>
+            <option value="proposalPriceQuote">Proposal/Price Quote</option>
+            <option value="negociationReview">Negociation/Review</option>
+            <option value="closedWon">Closed Won</option>
+            <option value="closedLost">Closed Lost</option>
+        </select><br><br>
+
+        <input type="submit" value="Salvar">
+    </form>
+    <hr>
+
+
+    <!-- Exercicio 5: -->
+    <h3>Questão 5:</h3>
+    <form>
+        <label for="assunto"><span style="color: red;">*</span>Assunto</label><br>
+        <input type="search" id="assunto"  name="assunto" /><br><br>
+
+        <label for="dataVencimento">Data de Vencimento</label><br>
+        <input type="date" id="dataVencimento" name="dataVencimento"><br><br>
+
+        <label for="priotidade"><span style="color: red;">*</span>Prioridade</label><br>
+        <select name="Prioridade" id="prioridade">
+            <option value="null">--Nenhum--</option>
+            <option value="high">High</option>
+            <option value="normal">Normal</option>
+            <option value="low">Low</option>
+        </select><br><br>
+        
+        <label for="status"><span style="color: red;">*</span>Status</label><br>
+        <select name="Status" id="status">
+            <option value="null">--Nenhum--</option>
+            <option value="notStarted">Not Started</option>
+            <option value="inProgress">In Progress</option>
+            <option value="completed">Completed</option>
+            <option value="waitingOnSomeoneElse">Waiting on Someone Else</option>
+            <option value="deferred">Deferred</option>
+        </select><br><br>
+
+        <input type="submit" value="Salvar e criar">
+        <input type="submit" value="Cancelar">
+        <input type="submit" value="Salvar">
+    </form>
+
 </body>
 </html>
