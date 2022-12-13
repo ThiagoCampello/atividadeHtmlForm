@@ -1,5 +1,5 @@
 <h1 align="center">
-   <a href="https://resplendent-llama-932327.netlify.app/">
+   <a href="https://thiagocampello.github.io/atividadeHtmlForm/">
 	<img alt="Logo" src="image/SoulCode.png" />
 	</a>
     <br>
@@ -20,7 +20,7 @@
 </p>
 
 <h4 align="center">
-  <p>Top 10 filmes</p>
+  <p>Atividade Formulário</p>
   
   <p>Desenvolvido durante o curso SalesForce da SoulCode.</p>
 
@@ -47,7 +47,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 Você pode acessar por aqui:
 
--  [Projeto Top 10 Filmes][demo]
+-  [Atividade Forms][demo]
 
 ## :information_source: Como utilizar
 
@@ -55,7 +55,7 @@ Para clonar e executar este aplicativo, você precisará do Git instalado em seu
 
 ```bash
 # Clonar este repositório
-$ git clone https://github.com/ThiagoCampello/projetoTop10Filmes.git
+$ git clone https://github.com/ThiagoCampello/atividadeHtmlForm
 # Entre no repositório
 # Vá para index.html
 # Clique com o botão direito nele
@@ -69,4 +69,4 @@ $ git clone https://github.com/ThiagoCampello/projetoTop10Filmes.git
 [vc]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[demo]: https://resplendent-llama-932327.netlify.app/index.html
+[demo]: https://thiagocampello.github.io/atividadeHtmlForm/
